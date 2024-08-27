@@ -28,21 +28,21 @@ export const ContactUs = () => {
       message: formData.message,
     };
 
-    emailjs.init({
-      publicKey: "l3Xr3Y8JAkn8A0he6",
-      blockHeadless: true,
-      limitRate: {
-        id: "app",
-        throttle: 10000,
-      },
-    });
+    // emailjs.init({
+    //   publicKey: "2ZjS2PId2XJpJTyCg",
+    //   blockHeadless: true,
+    //   limitRate: {
+    //     id: "app",
+    //     throttle: 10000,
+    //   },
+    // });
 
     emailjs
       .send(
         contactConfig.YOUR_SERVICE_ID,
         contactConfig.YOUR_TEMPLATE_ID,
-        templateParams
-        // contactConfig.YOUR_USER_ID
+        templateParams,
+        contactConfig.YOUR_USER_ID
       )
       .then(
         (result) => {

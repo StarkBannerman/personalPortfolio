@@ -95,14 +95,14 @@ const dataportfolio = [
 ];
 
 const contactConfig = {
-  YOUR_EMAIL: "arunthestark@gmail.com",
+  YOUR_EMAIL: "arunkumare.dev@gmail.com",
   YOUR_FONE: "+919620988054",
   description: "Bengaluru, Karnataka",
   // creat an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
   YOUR_SERVICE_ID: "service_skep15u",
   YOUR_TEMPLATE_ID: "template_2plpir7",
-  YOUR_USER_ID: "arunkumare.dev@gmail.com",
+  YOUR_USER_ID: "wppd0ET9DmNagPg6u",
 };
 
 const socialprofils = {
