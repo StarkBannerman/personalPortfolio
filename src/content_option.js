@@ -100,9 +100,9 @@ const contactConfig = {
   description: "Bengaluru, Karnataka",
   // creat an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-  YOUR_SERVICE_ID: "",
-  YOUR_TEMPLATE_ID: "",
-  YOUR_USER_ID: "",
+  YOUR_SERVICE_ID: "service_skep15u",
+  YOUR_TEMPLATE_ID: "template_2plpir7",
+  YOUR_USER_ID: "arunkumare.dev@gmail.com",
 };
 
 const socialprofils = {
